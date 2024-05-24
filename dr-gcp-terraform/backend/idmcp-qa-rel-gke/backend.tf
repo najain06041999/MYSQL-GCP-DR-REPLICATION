@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "ccgfqatfstate"
-    prefix = "terraform-state/idmcp-qa-rel-gke-najain"
+    bucket = "statefile"
+    prefix = "terraform-state/gke-najain"
   }
 }
